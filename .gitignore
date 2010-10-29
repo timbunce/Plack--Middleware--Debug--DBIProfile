@@ -1,0 +1,5 @@
+/Plack-Middleware-Debug-DBIProfile*
+.build
+Makefile
+blib
+.*.swp
