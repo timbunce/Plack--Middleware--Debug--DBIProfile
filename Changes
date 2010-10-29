@@ -1,7 +1,9 @@
-Revision history for Plack-Middleware-Debug-DBIProfile
+=head1 NAME
 
-{{$NEXT}}
+Changes - Significant changes to Plack::Middleware::Debug::DBIProfile
 
-0.100     2010-10-29 21:38:28 Europe/Dublin
-    -
+=head2 Changes in 0.101
 
+  Initial release.
+
+=cut
