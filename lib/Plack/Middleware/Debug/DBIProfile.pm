@@ -73,7 +73,10 @@ sub _set_profile_on_all_dbi_handles {
         : undef;
 
     # for any existing handles
-    DBI->visit_handles(sub { shift->{Profile} = $DBI::shared_profile });
+    DBI->visit_handles(sub {
+        shift->{Profile} = $DBI::shared_profile;
+        return 1; # keep going to visit all
+    });
 
     return $DBI::shared_profile;
 }
