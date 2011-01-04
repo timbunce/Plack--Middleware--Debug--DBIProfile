@@ -2,6 +2,10 @@
 
 Changes - Significant changes to Plack::Middleware::Debug::DBIProfile
 
+=head2 Changes in 0.102
+
+  Fixed removal of profiling (thanks to eevee)
+
 =head2 Changes in 0.101
 
   Initial release.
