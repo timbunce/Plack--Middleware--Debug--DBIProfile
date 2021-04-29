@@ -106,7 +106,7 @@ Enables DBI::Profile on all DBI handles for the duration of the request.
 
 The C<profile> parameter specifies the 'profile path'. It may be an integer or
 a string.  The default is 1, which simply measures the time spent inside the
-DBI.  For more detail try C<<profile => 2>> (or C<<profile => "!Statement">>)
+DBI.  For more detail try C<< profile => 2 >> (or C<< profile => "!Statement" >>)
 to get a per-statement breakdown.
 See L<DBI::Profile/ENABLING A PROFILE> for more information.
 
